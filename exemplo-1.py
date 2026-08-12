@@ -9,3 +9,10 @@ def aplicar_desconto(preco, desconto):
 preco = aplicar_desconto(preco, 0.1)
 
 print(nome, preco)
+
+nome = "Calça Jeans"
+preco = 90.0
+
+preco = aplicar_desconto(preco, 0.1)
+
+print(nome, preco)
