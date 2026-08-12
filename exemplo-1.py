@@ -6,6 +6,6 @@ preco = 50.0
 def aplicar_desconto(preco, desconto):
     return preco - (preco * desconto)
 
-aplicar_desconto(preco, 0.1)
+preco = aplicar_desconto(preco, 0.1)
 
 print(nome, preco)
